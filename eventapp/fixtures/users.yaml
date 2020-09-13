@@ -1,0 +1,14 @@
+- table: users
+  records:
+  - name: liushengli
+    email: liushengli.for.test.2020@gmail.com
+    password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+  - name: liushengli2
+    email: 2001.liu@gmail.com
+    password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+  - name: testuser1
+    email: testuser1@sample.invalid
+    password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3
+  - name: testuser2
+    email: testuser2@sample.invalid
+    password: a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3

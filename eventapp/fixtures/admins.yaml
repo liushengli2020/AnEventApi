@@ -1,0 +1,4 @@
+- table: admins
+  records:
+  - user_id: 1
+    admin_key: 4e7fe767-bd2b-4a34-acdf-17985d65830c

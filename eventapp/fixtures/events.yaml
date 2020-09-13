@@ -1,0 +1,10 @@
+- table: events
+  records:
+  - name: Study Date
+    location: Tokyo
+    start_time: 2020-09-12 23:00:00
+    end_time: 2020-09-14 23:00:00
+  - name: Baby Shower Parade
+    location: Osaka
+    start_time: 2020-09-15 23:00:00
+    end_time: 2020-09-16 23:00:00

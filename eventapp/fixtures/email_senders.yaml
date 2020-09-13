@@ -1,0 +1,6 @@
+- table: email_senders
+  records:
+  - smtp_server: smtp.gmail.com
+    port: 465
+    sender_email: liushengli.for.test.2020@gmail.com
+    password: aEd3emR1bWJMQVlYeDQ0ag==

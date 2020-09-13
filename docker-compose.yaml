@@ -1,0 +1,12 @@
+version: '3'
+services:
+    event-api:
+        image: event-api:latest
+        build:
+            context: .
+        ports:
+            - "5000:5000"            
+        container_name: event-api
+        environment:
+          - FLASK_APP=eventapp 
+          - FLASK_ENV=production

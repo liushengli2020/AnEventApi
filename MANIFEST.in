@@ -1,0 +1,6 @@
+include LICENSE
+graft tests
+graft event_app/fixtures
+graft event_app/routes
+graft event_app/services
+global-exclude *.pyc
