@@ -63,3 +63,16 @@ front website set up
 api documentation
 ----
 [An Event System Api](https://app.swaggerhub.com/apis-docs/LiuShengli/an-event_system_api/1.0.0)
+
+run with docker-compose
+---
+
+Modify server to you machine ip in front/.env.production file:
+
+    $ vi front/.env.production
+    $ docker-compose build
+    $ docker-compose up -d
+
+If you want to access from outside,make sure the ports of 5000 and 8080 is open.
+Open http://your-ip:8080/
+ 

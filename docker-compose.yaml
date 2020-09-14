@@ -10,3 +10,13 @@ services:
         environment:
           - FLASK_APP=eventapp 
           - FLASK_ENV=production
+    
+    event-api-front:
+        image: event-api-front:latest
+        build:
+            context: ./front
+        ports:
+            - "8080:80"            
+        container_name: event-api-front
+        environment:
+          - API_SERVER=event-api

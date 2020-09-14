@@ -1,3 +1,3 @@
 export const config = {
- apiUrl: 'http://localhost:5000/api/v1'
+ apiUrl: process.env.VUE_APP_API_URL
 }
